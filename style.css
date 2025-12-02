@@ -1,0 +1,63 @@
+/* Paleta de cores do app FlowPay */
+:root {
+    --cor-coral: #FF6B6B;
+    --cor-turquesa: #4ECDC4; 
+    --cor-amarelo: #FFE66D;
+    --cor-fundo: #F7FFF7;
+}
+
+/* Card central */
+.login-card {
+    width: 100%;
+    max-width: 380px;
+    background-color: var(--cor-fundo);
+    border-radius: 25px;
+    border: none;
+}
+
+/* Logo */
+.logo-img {
+    width: 120px;
+}
+
+/* Botão login */
+.btn-login {
+    background-color: var(--cor-coral);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+/* Link criar conta */
+.create-link {
+    color: var(--cor-turquesa);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-link:hover {
+    text-decoration: underline;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Campos arredondados */
+.form-control {
+    background-color: #fff;
+    border: 2px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: var(--cor-turquesa);
+    box-shadow: 0 0 0 0.2rem rgba(78, 205, 196, 0.3);
+}
